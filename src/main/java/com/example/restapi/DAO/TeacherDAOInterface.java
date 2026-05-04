@@ -7,4 +7,7 @@ import java.util.List;
 public interface TeacherDAOInterface {
 
     public List<Teacher> findAll();
+    public Teacher findById(int id);
+    public Teacher update(Teacher teacher);
+    public void deleteById(int id);
 }
